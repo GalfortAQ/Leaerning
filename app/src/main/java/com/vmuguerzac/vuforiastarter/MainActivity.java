@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void goTo(View view){
-        Intent intent = new Intent(this, ActivityLauncher.class);
+        Intent intent = new Intent(this, UnitsActivity.class);
         startActivity(intent);
     }
 }

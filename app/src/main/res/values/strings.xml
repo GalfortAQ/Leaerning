@@ -37,4 +37,9 @@
     <string name="INIT_OBJECT_DATASET_NOT_FOUND_TITLE">Database not found</string>
     <string name="INIT_OBJECT_DATASET_NOT_FOUND">Please scan an object and load a database</string>
     <string name="main_btn">GO!</string>
+    <string name="bnt_unit_1">Unidad 1</string>
+    <string name="btn_unit_2">Unidad 2</string>
+    <string name="btn_camera">Cámara</string>
+    <string name="btn_new_words">Palabras Nuevas</string>
+    <string name="btn_questionnaire">Cuestionario</string>
 </resources>
