@@ -13,8 +13,6 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
-
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -22,16 +20,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.VuforiaStarter">
-
-        <meta-data
-            android:name="com.google.ar.core"
-            android:value="optional" />
-
         <activity
-            android:name="com.vmuguerzac.vuforiastarter.ActivitySplashScreen"
-            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
-            android:noHistory="true"
-            android:screenOrientation="portrait"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -39,14 +29,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.vmuguerzac.vuforiastarter.ActivityLauncher"
-            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
-            android:screenOrientation="portrait"
-            >
-        </activity>
-        <activity android:name=".ImageTargets"/>
 
+        <meta-data
+            android:name="com.google.ar.core"
+            android:value="optional" />
+
+        <activity
+            android:name=".ActivitySplashScreen"
+            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
+            android:exported="true"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".ActivityLauncher"
+            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".ImageTargets" />
     </application>
 
 </manifest>
