@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/VuforiaStarter/app/src/main/res/layout/activity_launcher.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/VuforiaStarter/app/src/main/res/layout/sample_app_menu_group.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/VuforiaStarter/app/src/main/res/layout/sample_app_menu_group_divider.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/VuforiaStarter/app/src/main/res/layout/sample_app_menu_layer.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/VuforiaStarter/app/src/main/res/layout/sample_app_message_view.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/VuforiaStarter/app/src/main/res/layout/sample_app_title_bar.xml" value="0.358695652173913" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
